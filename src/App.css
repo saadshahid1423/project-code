@@ -1,38 +1,222 @@
-.App {
+.btnpost{
+  margin-left: 20px;
+}
+.btnemploye{
+  margin-left: 20px;
+}
+.imgsign{
+  border: 0px white;
+  background-color: white;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.imglogin{
+  border: 0px white;
+  background-color: white;
+  margin-left: 750px;
+  cursor: pointer;
+}
+.imglogin:hover{
+  border-radius: 5px;
+  border: 3px solid rgb(29, 82, 255);;
+}
+.imgsign:hover{
+  /* outline: solid rgb(29, 82, 255); */
+  border-radius: 5px;
+  border: 3px solid rgb(29, 82, 255);;
+}
+.jobimg{
+  margin-top: -14px;
+  background-image: url("https://tbcdn.talentbrew.com/company/936/v2_0/img/subhero-leadership.jpg");
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.jobtext{
+  font-size: 50px;
+  padding-left: 440px;
+  font-family: 'Noto Sans JP', sans-serif;
+  display: inline;
+}
+.span{
+  color: rgb(248, 39, 39);
+}
+.searchbtn{
+  display: inline-flex;
+}
+.cvimg{
+  /* align-items: center; */
+  /* align-content: center;
+  align-content: center; */
+  margin-left: 640px;
+  margin-right: 600px;
+  border: 3px solid black;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.cvimg:hover{
+  background-color: rgb(50, 195, 110);
+}
+.getstart{
+  /* margin-left: -28px; */
   text-align: center;
+  font-size: large;
+}
+/* .cvbtn{ */
+  /* padding-left: 65px; */
+  /* padding-top: -0px; */
+  /* margin-left: 620px;
+  margin-right: 600px;
+  border-radius: 100px;
+  cursor: pointer;
+  border: 3px solid black;
+} */
+.search{
+  /* margin-top: 50px; */
+  padding-left: 380px;
+  /* padding-right: 450px; */
+  /* width:1000px; */
+  /* border-color:black; */
+  /* border:25px; */
+}
+.imgcv{
+  margin-left:25px;
+  width:70px;
+}
+.searchwidth{
+  width: 875px;
+}
+.btnsearch{
+  margin-top: -95px;
+  height: 55px;
+  width: 100px;
+  margin-left: 875px;
+}
+.cvbtn:hover{
+  background-color: rgb(0, 255, 85);
+}
+@media only screen and (max-width: 1030px){
+  .imglogin{
+    margin-left:400px;
+  } 
+ }
+@media only screen and (max-width: 600px){
+ .imglogin{
+   margin-left: 15px;
+ } 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ @media only screen and (max-width: 1030px){
+  .jobtext{
+    font-size: 50px;
+    padding-left: 230px;
+  }  
+ }
+@media only screen and (max-width: 600px){
+  .jobtext{
+    font-size: xx-large;
+    padding-left: 140px;
+  }  
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ @media only screen and (max-width: 1030px){
+  .jobimg{
+    background-image: url(./images/jobimg2.jpg);
+    width: 1024px;
+  }  
+ }
+ @media only screen and (max-width: 600px){
+  .jobimg{
+    background-image: url(./images/jobimg.jpg);
+    width: 600px;
+  }  
+ }
+ @media only screen and (max-width: 1030px){
+  .search{
+    /* width: 850px; */
+    margin-left: -230px;
+    /* height: 50px; */
+  }  
+ }
+ @media only screen and (max-width: 600px){
+  .search{
+    /* width: 500px; */
+    margin-left: -300px;
+    /* height: 50px; */
+  }  
+ }
+ @media only screen and (max-width: 1030px){
+  .searchwidth{
+    margin-top: -15px;
+    width: 680px;
+    /* margin-left: -500px; */
+  }  
+ }
+ @media only screen and (max-width: 600px){
+  .searchwidth{
+    margin-top: -15px;
+    width: 420px;
+    /* margin-left: -500px; */
+  }  
+ }
+ @media only screen and (max-width: 1030px){
+  .btnsearch{
+    /* width: 500px; */
+    margin-left: 680px;
+  }  
+ }
+ @media only screen and (max-width: 600px){
+  .btnsearch{
+    /* width: 500px; */
+    margin-left: 420px;
+  }  
+ }
+ @media only screen and (max-width: 1030px){
+  .cvimg{
+    margin-left: 400px;
+    margin-right: 200px;
+    margin-top: 0px;
+  border: 2px solid black;
+  height:125px;
+    width: 130px;
+  } 
+ }
+ @media only screen and (max-width: 600px){
+  .cvimg{
+    margin-left: 240px;
+    margin-right: 200px;
+    margin-top: -23px;
+  border: 2px solid black;
+  height:95px;
+    width: 120px;
+  } 
+ }
+ @media only screen and (max-width: 1030px){
+  .imgcv{
+    height: 80px;
+    margin-left: 28px;
+    /* padding-left: 0px; */
+    /* margin-bottom: 20px; */
+    } 
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ @media only screen and (max-width: 600px){
+  .imgcv{
+    height: 55px;
+    margin-left: 25px;
+    /* margin-bottom: 20px; */
+    } 
 }
-
-.App-link {
-  color: #61dafb;
+@media only screen and (max-width: 1030px){
+  .getstart{
+    font-size: 16px;
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+    } 
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media only screen and (max-width: 600px){
+  .getstart{
+    font-size: 16px;
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+    } 
 }
